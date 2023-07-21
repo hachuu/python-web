@@ -1,0 +1,53 @@
+/* static/css/style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 20px 0 0; /* Add padding to the sides */
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4D77FF;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

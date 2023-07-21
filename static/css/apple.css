@@ -1,0 +1,115 @@
+/* Reset some default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000; /* Black background for the header */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff; /* White text color for navigation links */
+  text-decoration: none;
+}
+
+#main-carousel {
+  /* Add styles for the main carousel (banner) here */
+}
+
+#main-carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main-carousel .carousel-item img {
+  width: 100%;
+  max-width: 1200px;
+}
+
+#main-carousel .carousel-caption {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for caption */
+  color: #fff; /* White text color for caption */
+}
+
+#main-carousel .carousel-caption h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#main-carousel .carousel-caption p {
+  font-size: 16px;
+}
+
+#main-carousel .carousel-caption a {
+  color: #0070c9; /* Apple blue color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main section {
+  padding: 50px 0;
+}
+
+main section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Add additional styles for different sections and elements as needed */
+
+footer {
+  background-color: #f0f0f0; /* Light gray background for footer */
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #888; /* Light gray text color for footer */
+}
+
+/* Media Queries for Responsive Design (adjust as needed) */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  #main-carousel .carousel-caption {
+    padding: 10px;
+  }
+}
